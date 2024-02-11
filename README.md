@@ -1,14 +1,22 @@
 # Sales_Prediction
-Sales prediction using Linear Regression and Random Forest in Python involves utilizing machine learning algorithms to forecast future sales based on historical data.
+The project encompasses a multifaceted approach to analyze and predict purchase prices through rigorous data manipulation, visualization, normalization, and advanced modeling techniques.
 
-Linear Regression models the relationship between the independent variables (such as advertising expenditure, seasonality, etc.) and the dependent variable (sales) by fitting a linear equation to the observed data. It assumes a linear relationship between the variables.
+Data Manipulation and Visualization:
+We initiated our project by acquiring raw data and subjecting it to meticulous manipulation to ensure its suitability for analysis. Following this, we employed various data visualization techniques to gain insights into patterns, trends, and relationships within the dataset. Visualizations were instrumental in understanding the data's characteristics and identifying potential factors influencing purchase prices.
 
-Random Forest, on the other hand, is an ensemble learning technique that creates a multitude of decision trees during training and outputs the average prediction of the individual trees. It's capable of capturing complex relationships between variables and tends to perform well with noisy and non-linear data.
+Data Normalization:
+Normalization is crucial for standardizing data, ensuring uniformity, and enhancing the effectiveness of predictive models. We employed normalization techniques to scale the data appropriately, mitigating biases and ensuring optimal performance across different modeling algorithms.
 
-In Python, you would typically:
+Predictive Modeling:
+We utilized multiple predictive models to forecast purchase prices, each offering unique insights and advantages:
 
-1. Prepare your data, including features (independent variables) and the target variable (sales).
-2. Split your data into training and testing sets.
-3. Train both a Linear Regression model and a Random Forest model using the training data.
-4. Evaluate the performance of each model using metrics such as Mean Squared Error (MSE) or R-squared.
-5. Use the trained models to predict sales on new data.
+1. Linear Regression: Leveraging linear regression, we aimed to establish a linear relationship between independent variables and purchase prices, providing a baseline prediction model.
+
+2. Random Forest: By employing the Random Forest algorithm, we capitalized on its ability to handle complex datasets and capture nonlinear relationships, thus improving prediction accuracy.
+
+3. LSTM Model: Long Short-Term Memory (LSTM) networks were employed to analyze sequential data and capture temporal dependencies within the dataset, offering enhanced prediction capabilities for time-series data like purchase prices.
+
+4. ARIMA Model: The Autoregressive Integrated Moving Average (ARIMA) model, known for its effectiveness in time-series forecasting, was employed to capture trends, seasonality, and other temporal patterns in purchase prices.
+
+Evaluation and Comparison:
+Each model was evaluated based on various metrics such as Mean Squared Error (MSE), and Mean Absolute Error (MAE). These metrics facilitated a comprehensive comparison of model performance, allowing us to identify the most effective approach for predicting purchase prices.
